@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+h1 {
+  color: rgb(36, 34, 34);
+  margin-bottom: 50px;
+  font-size: -webkit-xxx-large;
+}
+
+#rel {
+    text-align: center;
+    color: rgb(143, 128, 18);
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 12px;
+    width: 500px;
+    border: none;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background-color: #ffffff84;
+  
+}
+
+footer {
+  margin-top: 30px;
+  font-weight: 100%;
+  color: rgb(36, 34, 34);
+  margin-bottom: 25px;
+  font-size: x-large;
+
+}
